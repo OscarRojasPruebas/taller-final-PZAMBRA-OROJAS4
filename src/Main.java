@@ -18,7 +18,7 @@ public class Main {
         int opcion;
 
         do {
-            System.out.println("==========PAULA =========================");
+            System.out.println("==========OSCAR=========================");
             System.out.println("===================================");
             System.out.println("  MENU CAPITULO DE PROGRAMACION    ");
             System.out.println("===================================");
