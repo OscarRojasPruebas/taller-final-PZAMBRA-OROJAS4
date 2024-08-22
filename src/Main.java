@@ -81,6 +81,15 @@ public class Main {
                 case 5:
                     System.out.println("Has seleccionado Condicional IF, ELSE IF ELSE.");
                     // Lógica para Condicional IF, ELSE IF ELSE
+                    System.out.println("==================================================");
+                    System.out.println("-               IF, ELSE IF ELSE                 -");
+                    System.out.println("==================================================");
+                    System.out.println("-          1. Explicación de IF                  -");
+                    System.out.println("-          2. Explicación de ELSE IF             -");
+                    System.out.println("-          3. Explicación de ELSE                -");
+                    System.out.println("-          4. Programa de IF, ELSE IF / ELSE     -");
+                    System.out.println("-          0. Salir                              -");
+                    System.out.println("==================================================");
                     break;
                 case 6:
                     System.out.println("Has seleccionado Condicional Switch.");
