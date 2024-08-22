@@ -94,6 +94,13 @@ public class Main {
                 case 6:
                     System.out.println("Has seleccionado Condicional Switch.");
                     // Lógica para Condicional Switch
+                    System.out.println("==================================================");
+                    System.out.println("-                    SWITCH                      -");
+                    System.out.println("==================================================");
+                    System.out.println("-   1. Explicación de Switch                     -");
+                    System.out.println("-   2. Programa de Switch - Valide calificación  -");
+                    System.out.println("-   0. Salir                                     -");
+                    System.out.println("==================================================");
                     break;
                 case 7:
                     System.out.println("Has seleccionado Condicional Ternaria.");
@@ -106,6 +113,13 @@ public class Main {
                 case 8:
                     System.out.println("Has seleccionado Bucle DO WHILE.");
                     // Lógica para Bucle DO WHILE
+                    System.out.println("==================================================");
+                    System.out.println("-                   DO WHILE                     -");
+                    System.out.println("==================================================");
+                    System.out.println("-    1. Explicación de DO WHILE                  -");
+                    System.out.println("-    2. Programa de DO WHILE - Adivina el número -");
+                    System.out.println("-    0. Salir                                    -");
+                    System.out.println("==================================================");
                     break;
                 case 9:
                     System.out.println("Has seleccionado Bucle WHILE.");
