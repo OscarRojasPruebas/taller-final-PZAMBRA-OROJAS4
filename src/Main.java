@@ -124,10 +124,24 @@ public class Main {
                 case 9:
                     System.out.println("Has seleccionado Bucle WHILE.");
                     // Lógica para Bucle WHILE
+                    System.out.println("==================================================");
+                    System.out.println("-                  Bucle While                   -");
+                    System.out.println("==================================================");
+                    System.out.println("-      1. Explicación de WHILE                   -");
+                    System.out.println("-      2. Programa de WHILE                      -");
+                    System.out.println("-      0. Salir                                  -");
+                    System.out.println("==================================================");
                     break;
                 case 10:
                     System.out.println("Has seleccionado Bucle FOR.");
                     // Lógica para Bucle FOR
+                    System.out.println("==================================================");
+                    System.out.println("-                  Bucle FOR                     -");
+                    System.out.println("==================================================");
+                    System.out.println("-      1. Explicación de FOR                     -");
+                    System.out.println("-      2. Programa de DO FOR                     -");
+                    System.out.println("-      0. Salir                                  -");
+                    System.out.println("==================================================");
                     break;
                 case 11:
                     System.out.println("Saliendo del programa...");
