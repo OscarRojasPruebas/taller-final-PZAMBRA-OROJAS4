@@ -42,6 +42,19 @@ public class Main {
                 case 1:
                     System.out.println("Has seleccionado Datos Primitivos.");
                     // Lógica para Datos Primitivos
+                    System.out.println("==================================================");
+                    System.out.println("-                DATOS PRIMITIVOS                -");
+                    System.out.println("==================================================");
+                    System.out.println("-          1. Explicación Byte                   -");
+                    System.out.println("-          2. Explicación Short                  -");
+                    System.out.println("-          3. Explicación Int                    -");
+                    System.out.println("-          4. Explicación Long                   -");
+                    System.out.println("-          5. Explicación Float                  -");
+                    System.out.println("-          6. Explicación Double                 -");
+                    System.out.println("-          7. Explicación Char                   -");
+                    System.out.println("-          8. Explicación Boolean                -");
+                    System.out.println("-          0. Salir                              -");
+                    System.out.println("==================================================");
                     break;
                 case 2:
                     System.out.println("Has seleccionado String.");
