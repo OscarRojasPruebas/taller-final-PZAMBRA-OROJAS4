@@ -67,6 +67,16 @@ public class Main {
                 case 4:
                     System.out.println("Has seleccionado Tipo de Operadores.");
                     // Lógica para Tipo de Operadores
+                    System.out.println("==================================================");
+                    System.out.println("-               TIPO DE OPERADORES               -");
+                    System.out.println("==================================================");
+                    System.out.println("-          1. Aritméticos                        -");
+                    System.out.println("-          2. Relacionales                       -");
+                    System.out.println("-          3. Lógicos                            -");
+                    System.out.println("-          4. Asignación                         -");
+                    System.out.println("-          5. Incremento / Decremento            -");
+                    System.out.println("-          0. Salir                              -");
+                    System.out.println("==================================================");
                     break;
                 case 5:
                     System.out.println("Has seleccionado Condicional IF, ELSE IF ELSE.");
