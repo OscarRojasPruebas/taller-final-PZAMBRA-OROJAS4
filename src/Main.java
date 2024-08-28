@@ -59,6 +59,14 @@ public class Main {
                 case 2:
                     System.out.println("Has seleccionado String.");
                     // Lógica para String
+                    System.out.println("==================================================");
+                    System.out.println("-                QUE ES STRING                   -");
+                    System.out.println("==================================================");
+                    System.out.println("-Se utiliza cuando necesitamos crear numeros ent--");
+                    System.out.println("-eros no superiores a 3 cifras.                  -");
+                    System.out.println("-Ejemplo:                                        -");
+                    System.out.println("-          String nombre: 'Oscar';               -");
+                    System.out.println("==================================================");
                     break;
                 case 3:
                     System.out.println("Has seleccionado Constantes.");
