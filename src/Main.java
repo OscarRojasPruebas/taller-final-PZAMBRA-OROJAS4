@@ -71,6 +71,15 @@ public class Main {
                 case 3:
                     System.out.println("Has seleccionado Constantes.");
                     // Lógica para Constantes
+                    System.out.println("==================================================");
+                    System.out.println("-            QUE ES CONSTANTES                   -");
+                    System.out.println("==================================================");
+                    System.out.println("-Se utiliza cuando necesitamos crear numeros ent--");
+                    System.out.println("-eros no superiores a 3 cifras.                  -");
+                    System.out.println("-Es util para xyz                                -");
+                    System.out.println("-Ejemplo:                                        -");
+                    System.out.println("-          String nombre: 'Oscar';               -");
+                    System.out.println("==================================================");
                     break;
                 case 4:
                     System.out.println("Has seleccionado Tipo de Operadores.");
