@@ -94,11 +94,8 @@ public class Opciones {
         scanner.nextLine(); // Espera por la tecla Enter
     }
 
-    // Otros métodos como mostrarString(), mostrarConstantes(), etc.
-
-
     public void mostrarString() {
-        int desicion; // Usamos 'desicion' en lugar de 'opcion'
+        int desicion;
 
         // Muestra el submenú de String
         System.out.println("==================================================");
@@ -109,7 +106,7 @@ public class Opciones {
         System.out.println("-          0. Volver al menú principal           -");
         System.out.println("==================================================");
         System.out.print("Seleccione una opción: ");
-        desicion = scanner.nextInt(); // Usamos 'desicion' aquí
+        desicion = scanner.nextInt();
 
         // Proporciona la información correspondiente según la opción seleccionada
         switch (desicion) {
@@ -167,11 +164,8 @@ public class Opciones {
 
         System.out.println("Fin del programa con String.");
     }
-
-    // Otros métodos como mostrarDatosPrimitivos(), mostrarFor(), etc.
-
     public void mostrarConstantes() {
-        int desicion; // Usamos 'desicion' en lugar de 'opcion'
+        int desicion;
 
         // Muestra el submenú de Constantes
         System.out.println("==================================================");
@@ -235,11 +229,8 @@ public class Opciones {
 
         System.out.println("Fin del programa con Constantes.");
     }
-
-    // Otros métodos como mostrarDatosPrimitivos(), mostrarString(), etc.
-
     public void mostrarOperadores() {
-        int desicion; // Cambié 'opcion' a 'desicion'
+        int desicion;
 
         // Muestra el submenú de operadores
         System.out.println("==================================================");
@@ -317,11 +308,8 @@ public class Opciones {
         scanner.nextLine(); // Espera por la tecla Enter
     }
 
-    // Otros métodos como mostrarDatosPrimitivos(), mostrarString(), etc.
-
-
     public void mostrarIfElse() {
-        int desicion; // Usamos 'desicion' en lugar de 'opcion'
+        int desicion;
 
         // Muestra el submenú de condicionales IF, ELSE IF, ELSE
         System.out.println("==================================================");
@@ -403,13 +391,8 @@ public class Opciones {
             System.out.println("El número es cero.");
         }
     }
-
-    // Otros métodos como mostrarDatosPrimitivos(), mostrarOperadores(), etc.
-
-    // Otros métodos como mostrarDatosPrimitivos(), mostrarOperadores(), etc.
-
     public void mostrarSwitch() {
-        int desicion; // Usamos 'desicion' en lugar de 'opcion'
+        int desicion;
 
         // Muestra el submenú de condicional Switch
         System.out.println("==================================================");
@@ -490,12 +473,8 @@ public class Opciones {
                 System.out.println("Número no válido. Introduce un número entre 1 y 5.");
         }
     }
-
-    // Otros métodos como mostrarDatosPrimitivos(), mostrarIfElse(), etc.
-
-
     public void mostrarTernaria() {
-        int desicion; // Usamos 'desicion' en lugar de 'opcion'
+        int desicion;
 
         // Muestra el submenú de Condicional Ternaria
         System.out.println("==================================================");
@@ -555,11 +534,8 @@ public class Opciones {
 
         System.out.println("Fin del programa con Ternaria.");
     }
-
-    // Otros métodos como mostrarDatosPrimitivos(), mostrarConstantes(), etc.
-
     public void mostrarDoWhile() {
-        int desicion; // Usamos 'desicion' en lugar de 'opcion'
+        int desicion;
 
         // Muestra el submenú de Bucle DO WHILE
         System.out.println("==================================================");
@@ -617,11 +593,8 @@ public class Opciones {
         } while (numero != 0);
         System.out.println("Fin del bucle DO WHILE.");
     }
-
-    // Otros métodos como mostrarDatosPrimitivos(), mostrarSwitch(), etc.
-
     public void mostrarWhile() {
-        int desicion; // Usamos 'desicion' en lugar de 'opcion'
+        int desicion;
 
         // Muestra el submenú de Bucle WHILE
         System.out.println("==================================================");
@@ -737,8 +710,6 @@ public class Opciones {
         }
         System.out.println("Fin del bucle FOR.");
     }
-
-    // Otros métodos como mostrarDatosPrimitivos(), mostrarWhile(), etc.
 
 }
 
