@@ -1,13 +1,20 @@
 package menus; // Indica que esta clase pertenece al paquete menus
 
-import utilidades.Opciones; // Importa la clase Opciones del paquete utilidades
+ // Importa la clase Opciones del paquete utilidades
 import java.util.Scanner;
+import Opciones.DatosPrimitivos;
+import Opciones.OpcionString;
+import Opciones.OpcionConstantes;
+import Opciones.TiposOperadores;
 
 public class Menu {
     private Scanner scanner = new Scanner(System.in); // Para capturar la entrada del usuario
     private int opcion; // Opción seleccionada por el usuario
 
     public void mostrarMenu() {
+
+        int opcion;
+
         do {
             // Muestra el menú principal
             System.out.println("==================================================");
@@ -30,23 +37,22 @@ public class Menu {
             System.out.print("Digite su opción: ");
             opcion = scanner.nextInt();
 
-            Opciones opciones = new Opciones(); // Instancia la clase Opciones para manejar la lógica de las opciones
 
             // Llama al método correspondiente según la opción seleccionada
             switch (opcion) {
                 case 1:
-                    opciones.mostrarDatosPrimitivos();
+                    new DatosPrimitivos(this).mostrar();
                     break;
                 case 2:
-                    opciones.mostrarString();
+                    new OpcionString(this).mostrar();
                     break;
                 case 3:
-                    opciones.mostrarConstantes();
+                    new OpcionConstantes(this).mostrar();
                     break;
                 case 4:
-                    opciones.mostrarOperadores();
+                    new TiposOperadores(this).mostrar();
                     break;
-                case 5:
+             /*   case 5:
                     opciones.mostrarIfElse();
                     break;
                 case 6:
@@ -63,7 +69,7 @@ public class Menu {
                     break;
                 case 10:
                     opciones.mostrarFor();
-                    break;
+                    break;*/
                 case 11:
                     System.out.println("Saliendo del programa...");
                     break;
@@ -79,7 +85,7 @@ public class Menu {
 
         } while (opcion != 11);
 
-        scanner.close(); // Cierra el escáner al finalizar
+       // scanner.close(); // Cierra el escáner al finalizar
     }
 }
 
