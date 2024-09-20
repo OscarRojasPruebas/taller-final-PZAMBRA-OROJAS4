@@ -44,7 +44,7 @@ public class BucleFor {
 
             if (opcion != 0) {
                 System.out.println("\nPresione Enter para volver al menú de String...");
-                scanner.nextLine(); // Espera por la tecla Enter
+                scanner.nextLine();
             }
 
         } while (opcion != 0); // Permitir volver al menú principal

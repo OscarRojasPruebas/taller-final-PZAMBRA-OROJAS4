@@ -46,7 +46,7 @@ public class OpcionConstantes {
                 scanner.nextLine(); // Espera por la tecla Enter
             }
 
-        } while (opcion != 0); // Permitir volver al menú principal
+        } while (opcion != 0);
 
 
     }
@@ -65,20 +65,15 @@ public class OpcionConstantes {
 
                 }
                 private void  programaConstantes (){
-                    // Aquí ejecutaremos un programa práctico que usa Constantes
                     System.out.println("Ejemplo de programa con constantes:");
 
-                    // Definición de una constante
                     final double PI = 3.14159;
 
-                    // Pedimos al usuario que introduzca el radio de un círculo
                     System.out.print("Introduce el radio del círculo: ");
                     double radio = scanner.nextDouble();
 
-                    // Calculamos el área usando la constante PI
                     double area = PI * radio * radio;
 
-                    // Mostramos el resultado
                     System.out.printf("El área del círculo con radio %.2f es: %.2f%n", radio, area);
                 }
 

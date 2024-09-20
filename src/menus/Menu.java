@@ -1,6 +1,6 @@
 package menus; // Indica que esta clase pertenece al paquete menus
 
- // Importa la clase Opciones del paquete utilidades
+ // Importa la clase Opciones
 import java.util.Scanner;
 import Opciones.CondicionalTernaria;
 import Opciones.BucleDoWhile;
@@ -39,7 +39,6 @@ public class Menu {
             opcion = scanner.nextInt();
 
 
-            // Llama al método correspondiente según la opción seleccionada
             switch (opcion) {
                 case 1:
                     new DatosPrimitivos(this).mostrar();
@@ -80,13 +79,12 @@ public class Menu {
 
             if (opcion != 11) {
                 System.out.println("\nPresione Enter para continuar...");
-                scanner.nextLine(); // Captura el salto de línea
-                scanner.nextLine(); // Espera por la tecla Enter
+                scanner.nextLine();
+                scanner.nextLine();
             }
 
         } while (opcion != 11);
 
-       // scanner.close(); // Cierra el escáner al finalizar
     }
 }
 

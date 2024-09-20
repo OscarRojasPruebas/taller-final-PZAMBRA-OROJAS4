@@ -22,7 +22,7 @@ public class CondicionalesElseIf {
             System.out.println("-          1. Explicación de IF                  -");
             System.out.println("-          2. Explicación de ELSE IF             -");
             System.out.println("-          3. Explicación de ELSE                -");
-            System.out.println("-          4. Programa de IF, ELSE IF, ELSE      -"); // Nueva opción para ejecutar un programa
+            System.out.println("-          4. Programa de IF, ELSE IF, ELSE      -");
             System.out.println("-          0. Volver al menú principal           -");
             System.out.println("==================================================");
             System.out.print("Seleccione una opción: ");
@@ -52,7 +52,7 @@ public class CondicionalesElseIf {
 
             if (opcion != 0) {
                 System.out.println("\nPresione Enter para volver al menú de String...");
-                scanner.nextLine(); // Espera por la tecla Enter
+                scanner.nextLine();
             }
 
         } while (opcion != 0); // Permitir volver al menú principal
@@ -98,10 +98,8 @@ public class CondicionalesElseIf {
                      System.out.println("} // Resultado: El número es menor o igual a 5\n");
                  }
                 private void mostrarProgramaIf() {
-                    // Aquí ejecutaremos un programa práctico que usa IF, ELSE IF y ELSE
                     System.out.print("Introduce tu calificación (0-100): ");
 
-                    // Verificamos si la entrada es un número
                     if (scanner.hasNextInt()) {
                         int calificacion = scanner.nextInt();
 

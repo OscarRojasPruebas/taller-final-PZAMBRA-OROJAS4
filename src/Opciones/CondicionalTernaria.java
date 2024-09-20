@@ -48,7 +48,7 @@ public class CondicionalTernaria {
                 scanner.nextLine(); // Espera por la tecla Enter
             }
 
-        } while (opcion != 0); // Permitir volver al menú principal
+        } while (opcion != 0);
 
         scanner.close(); // Cerrar el escáner al finalizar
     }

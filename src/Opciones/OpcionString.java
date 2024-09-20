@@ -45,10 +45,10 @@ public class OpcionString {
 
             if (opcion != 0) {
                 System.out.println("\nPresione Enter para volver al menú de String...");
-                scanner.nextLine(); // Espera por la tecla Enter
+                scanner.nextLine();
             }
 
-        } while (opcion != 0); // Permitir volver al menú principal
+        } while (opcion != 0);
 
         scanner.close(); // Cerrar el escáner al finalizar
     }
@@ -68,7 +68,6 @@ public class OpcionString {
                 System.out.print("Introduce un texto: ");
                 String texto = scanner.nextLine();
 
-                // Realiza algunas operaciones con el texto
                 System.out.println("Texto introducido: " + texto);
                 System.out.println("Longitud del texto: " + texto.length());
                 System.out.println("Texto en mayúsculas: " + texto.toUpperCase());

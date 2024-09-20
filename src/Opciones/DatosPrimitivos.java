@@ -69,15 +69,14 @@ public class DatosPrimitivos {
 
             if (opcion != 0) {
                 System.out.println("\nPresione Enter para volver al menú de datos primitivos...");
-                scanner.nextLine(); // Espera por la tecla Enter
+                scanner.nextLine();
             }
 
-        } while (opcion != 0); // Permitir volver al menú principal
+        } while (opcion != 0);
 
         scanner.close(); // Cerrar el escáner al finalizar
     }
 
-            // Proporciona la información correspondiente según la opción seleccionada
             private void mostrarByte() {
                 System.out.println("Byte:");
                 System.out.println("  Un tipo de dato que puede almacenar números enteros de 8 bits.");

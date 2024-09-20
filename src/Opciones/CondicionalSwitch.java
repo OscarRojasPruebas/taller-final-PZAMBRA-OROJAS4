@@ -44,12 +44,12 @@ public class CondicionalSwitch {
 
             if (opcion != 0) {
                 System.out.println("\nPresione Enter para volver al menú de String...");
-                scanner.nextLine(); // Espera por la tecla Enter
+                scanner.nextLine();
             }
 
-        } while (opcion != 0); // Permitir volver al menú principal
+        } while (opcion != 0);
 
-        scanner.close(); // Cerrar el escáner al finalizar
+        scanner.close();
     }
 
                     private void mostrarSwitch() {
