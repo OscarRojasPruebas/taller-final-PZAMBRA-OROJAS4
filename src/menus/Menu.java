@@ -2,10 +2,9 @@ package menus; // Indica que esta clase pertenece al paquete menus
 
  // Importa la clase Opciones del paquete utilidades
 import java.util.Scanner;
-import Opciones.DatosPrimitivos;
-import Opciones.OpcionString;
-import Opciones.OpcionConstantes;
-import Opciones.TiposOperadores;
+import Opciones.CondicionalTernaria;
+import Opciones.BucleDoWhile;
+import Opciones.*;
 
 public class Menu {
     private Scanner scanner = new Scanner(System.in); // Para capturar la entrada del usuario
@@ -52,19 +51,19 @@ public class Menu {
                 case 4:
                     new TiposOperadores(this).mostrar();
                     break;
-             /*   case 5:
-                    opciones.mostrarIfElse();
+                case 5:
+                    new CondicionalesElseIf(this).mostrar();
                     break;
                 case 6:
-                    opciones.mostrarSwitch();
+                    new CondicionalSwitch(this).mostrar();
                     break;
                 case 7:
-                    opciones.mostrarTernaria();
+                    new CondicionalTernaria(this).mostrar();
                     break;
                 case 8:
-                    opciones.mostrarDoWhile();
+                    new BucleDoWhile(this).mostrar();
                     break;
-                case 9:
+                /*case 9:
                     opciones.mostrarWhile();
                     break;
                 case 10:
