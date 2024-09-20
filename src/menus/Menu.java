@@ -4,6 +4,8 @@ package menus; // Indica que esta clase pertenece al paquete menus
 import java.util.Scanner;
 import Opciones.CondicionalTernaria;
 import Opciones.BucleDoWhile;
+import Opciones.BucleWhile;
+import Opciones.BucleFor;
 import Opciones.*;
 
 public class Menu {
@@ -63,12 +65,12 @@ public class Menu {
                 case 8:
                     new BucleDoWhile(this).mostrar();
                     break;
-                /*case 9:
-                    opciones.mostrarWhile();
+                case 9:
+                    new BucleWhile(this).mostrar();
                     break;
                 case 10:
-                    opciones.mostrarFor();
-                    break;*/
+                    new BucleFor(this).mostrar();
+                    break;
                 case 11:
                     System.out.println("Saliendo del programa...");
                     break;
